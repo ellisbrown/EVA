@@ -9,4 +9,5 @@ setup(
         # You can automatically capture your dependencies from the requirements.txt file:
         line.strip() for line in open('requirements.txt', 'r').readlines()
     ],
+    include_package_data=True,
 )
