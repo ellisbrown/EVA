@@ -1,1 +1,2 @@
 include rei/eva_clip/bpe_simple_vocab_16e6.txt.gz
+recursive-include rei/eva_clip/model_configs *.json
